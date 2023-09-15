@@ -1,0 +1,91 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:background="@color/background">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/crashdetect"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="@color/textprimary" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/logreport"
+			android:textSize="12sp"
+			android:textColor="@color/textprimary" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:background="@color/background">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal"
+			android:background="@drawable/roundedbgviolent">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Crashed while browsing SafeBooru\? Click here"
+				android:textSize="12sp"
+				android:textColor="@color/textprimary" />
+		</LinearLayout>
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:layout_weight="1">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TextView"
+				android:textSize="12sp"
+				android:textColor="@color/textprimary" />
+		</ScrollView>
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:text="@string/copylog"
+			android:textSize="12sp"
+			android:textColor="@color/textprimary"
+			android:background="@drawable/roundedbgviolent" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Launch Main.xml"
+			android:textSize="12sp"
+			android:textColor="@color/textprimary"
+			android:background="@drawable/roundedbgviolent" />
+	</LinearLayout>
+</LinearLayout>

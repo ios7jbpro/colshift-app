@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">ColTools</string>
+    <string name="news">News</string>
+    <string name="walls">Wallpapers</string>
+    <string name="repodown">Repo is not online</string>
+    <string name="comparasion">Comparasion</string>
+    <string name="requestdisabled">Requesting has been disabled permanently because of the virus tags. Sorry.</string>
+    <string name="requestwall">Request a wallpaper</string>
+    <string name="requestname">Name</string>
+    <string name="requestauthor">Author</string>
+    <string name="requestlowq">Low Resolution</string>
+    <string name="requesthighq">High Resolution</string>
+    <string name="hiddenactivites">Hidden Activities</string>
+    <string name="reroll">Reroll</string>
+    <string name="custompage">Enter custom page number</string>
+    <string name="load">Load</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="fetching">Fetching...</string>
+    <string name="download">Download</string>
+    <string name="favorite">Favorites</string>
+    <string name="setwallpaper">Set as wallpaper</string>
+    <string name="walltimeout">Wallpaper load timeout</string>
+    <string name="crashapp">CRASH!</string>
+    <string name="ipblacklist">Blacklisted</string>
+    <string name="ipblacklistdesc">Your IP has been blacklisted from sending requests for suspicious behavior. You cannot send wallpaper requests, though, all the other app functionality is unlocked.</string>
+    <string name="information">Information</string>
+    <string name="loading">Loading...</string>
+    <string name="githuberror">GitHub Error</string>
+    <string name="githuberrordesc">Couldnt connect to the main GitHub status repo. Are you sure youre connected to internet? If you think you are, you can force the app to still process into the main AltDisk host repo.</string>
+    <string name="force">Force</string>
+    <string name="crashdetect">Crash detected.</string>
+    <string name="logreport">Logs have been automatically reported!</string>
+    <string name="copylog">Copy the log</string>
+    <string name="exit">Exit</string>
+</resources>
